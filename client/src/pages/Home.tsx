@@ -76,10 +76,10 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Meet the Dogs
+              Möt hundarna
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Each dog brings unique gifts and personalities to their therapy work. Discover what makes Elvis, Sunny, and Ringo special.
+              Varje hund bidrar med unika gåvor och personligheter till sitt terapiarbete. Upptäck vad som gör Elvis, Sunny och Ringo speciella.
             </p>
           </div>
 
