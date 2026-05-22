@@ -21,14 +21,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="rounded-2xl overflow-hidden shadow-lg bg-card">
               <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-                <video
-                  className="absolute top-0 left-0 w-full h-full object-cover"
-                  controls
-                  poster="https://d2xsxph8kpxj0f.cloudfront.net/310519663526201017/Nv66AfvEoMtUdNgZMyJxs4/hero-marie-dogs.png"
-                >
-                  <source src="" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://youtu.be/kLOV4DfveOc?is=AH2Wm_udck5gKmFo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
