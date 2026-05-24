@@ -114,7 +114,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-foreground">
-              What is a Therapy Dog?
+              Vad är en besökshund?
             </h2>
 
             <div className="rounded-3xl overflow-hidden shadow-soft-lg mb-12">

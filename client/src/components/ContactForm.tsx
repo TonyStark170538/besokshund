@@ -31,7 +31,7 @@ export function ContactForm() {
 
     // Simulate form submission
     setTimeout(() => {
-      toast.success("Thank you for your inquiry! Marie will contact you soon.");
+      toast.success("Tack för din förfrågan! Marie kontaktar dig snart.");
       setFormData({
         name: "",
         email: "",
@@ -48,7 +48,7 @@ export function ContactForm() {
       {/* Name */}
       <div>
         <label htmlFor="name" className="block text-sm font-semibold mb-2">
-          Your Name *
+          Ditt Namn *
         </label>
         <input
           type="text"
@@ -58,14 +58,14 @@ export function ContactForm() {
           onChange={handleChange}
           required
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
-          placeholder="Enter your name"
+          placeholder="Ange ditt namn"
         />
       </div>
 
       {/* Email */}
       <div>
         <label htmlFor="email" className="block text-sm font-semibold mb-2">
-          Email Address *
+          E-postadress *
         </label>
         <input
           type="email"
@@ -82,7 +82,7 @@ export function ContactForm() {
       {/* Phone */}
       <div>
         <label htmlFor="phone" className="block text-sm font-semibold mb-2">
-          Phone Number
+          Telefonnummer
         </label>
         <input
           type="tel"
@@ -98,7 +98,7 @@ export function ContactForm() {
       {/* Inquiry Type */}
       <div>
         <label htmlFor="inquiryType" className="block text-sm font-semibold mb-2">
-          Type of Inquiry *
+          Typ av förfrågan *
         </label>
         <select
           id="inquiryType"
@@ -107,19 +107,19 @@ export function ContactForm() {
           onChange={handleChange}
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
         >
-          <option value="general">General Inquiry</option>
-          <option value="children">Children's Therapy</option>
-          <option value="seniors">Senior Care</option>
-          <option value="reading">Reading Support</option>
-          <option value="institutional">Institutional Program</option>
-          <option value="other">Other</option>
+          <option value="general">Allmän förfrågan</option>
+          <option value="children">Barns terapi</option>
+          <option value="seniors">Seniorvård</option>
+          <option value="reading">Lässupport</option>
+          <option value="institutional">Institutionellt program</option>
+          <option value="other">Övrigt</option>
         </select>
       </div>
 
       {/* Message */}
       <div>
         <label htmlFor="message" className="block text-sm font-semibold mb-2">
-          Message *
+          Meddelande *
         </label>
         <textarea
           id="message"
@@ -129,7 +129,7 @@ export function ContactForm() {
           required
           rows={6}
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all resize-none"
-          placeholder="Tell us about your needs and how we can help..."
+          placeholder="Berätta om dina behov och hur vi kan hjälpa dig..."
         />
       </div>
 
@@ -140,11 +140,11 @@ export function ContactForm() {
         className="btn-primary w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent"
         aria-busy={isSubmitting}
       >
-        {isSubmitting ? "Sending..." : "Send Inquiry"}
+        {isSubmitting ? "Skickar..." : "Skicka förfrågan"}
       </Button>
 
       <p className="text-xs text-muted-foreground text-center">
-        We'll get back to you within 24 hours.
+        Vi återkommer till dig inom 24 timmar.
       </p>
     </form>
   );

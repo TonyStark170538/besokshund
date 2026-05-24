@@ -6,7 +6,7 @@ export const dogs = [
     personality: ["Gladlynt", "Aktiv", "Smart", "Lekfull", "Energisk"],
     idealFor: ["Aktiva barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "Interaktiv terapi"],
     description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för barn som behöver uppmuntran och aktivt engagemang.",
-    avatar: "",
+    avatar: "/Elvis.jpg",
     color: "#6B4423",
     accentColor: "#F5F1ED",
     funFacts: [
@@ -29,7 +29,7 @@ export const dogs = [
     personality: ["Lugn", "Fredlig", "Mild", "Tålmodig", "Kärleksfull"],
     idealFor: ["Äldrevård", "Promenader", "Känslomässig komfort", "Tyst sällskap"],
     description: "Sunny är den milda själen i vårt team. Med sin varma närvaro och tålmodiga natur ger hon tröst och emotionellt stöd. Hennes lugna uppträdande skapar en trygg plats för de som söker lugn och kontakt.",
-    avatar: "",
+    avatar: "/Sunny.jpg",
     color: "#A86B4A",
     accentColor: "#D4A574",
     funFacts: [
@@ -52,7 +52,7 @@ export const dogs = [
     personality: ["Balanserad", "Erfaren", "Lugn men lekfull", "Pålitlig", "Vis"],
     idealFor: ["Blandade åldersgrupper", "Emotionellt stöd", "Flexibla aktiviteter", "Komplexa behov"],
     description: "Ringo är det balanserade hjärtat i teamet. Med sin erfarenhet och mångsidighet anpassar han sig till alla situationer med elegans och visdom. Oavsett om han arbetar med barn eller äldre, bringar Ringo en lugn men lekfull energi som möter alla där de är.",
-    avatar: "",
+    avatar: "/Ringo.jpg",
     color: "#D4B896",
     accentColor: "#C9A876",
     funFacts: [
