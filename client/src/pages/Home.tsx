@@ -44,10 +44,10 @@ export default function Home() {
                 Om Marie
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                Marie är certifierad skol-,terapi-och besökshundutbildad tillsammans med Ringo, och har arbetat med honom sedan 2019, inom skola vård och omsorg. Hennes passion för djurassisterad terapi och seriösa engagemang för välmående har påverkat många under dessa år.
+                Marie är certifierad skol-,terapi-och besökshundsteam tillsammans med Ringo, och har arbetat med honom sedan 2019, inom skola, vård och omsorg. Hennes passion för djurassisterad terapi och seriösa engagemang för välmående har påverkat många under dessa år.
               </p>
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                Med Elvis, Sunny och Ringo vid sin sida, skapar Marie trygga, sköna rum där människor kan uppleva den helande kraften i människa-djur relationer,  of human-animal connection. Each dog is carefully selected, extensively trained, and temperament-tested to ensure the highest standards of care.
+                Med Elvis, Sunny och Ringo vid sin sida, skapar Marie trygga, sköna rum där människor kan uppleva den helande kraften i människa-djur relationer. Varje hund är noggrant utvald, utförligt tränad och temperamentstestad för att säkerställa bästa kvalitet.
               </p>
               <div className="flex gap-8">
                 <div>
@@ -79,7 +79,7 @@ export default function Home() {
               Möt hundarna
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Varje hund bidrar med unika gåvor och personligheter till sitt terapiarbete. Upptäck vad som gör Elvis, Sunny och Ringo speciella.
+              Varje hund bidrar med unika gåvor och personligheter i sitt arbete. Upptäck vad som gör Elvis, Sunny och Ringo speciella.
             </p>
           </div>
 

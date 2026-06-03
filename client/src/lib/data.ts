@@ -6,7 +6,7 @@ export const dogs = [
     personality: ["Gladlynt", "Aktiv", "Smart", "Lekfull", "Energisk"],
     idealFor: ["Aktiva barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "Interaktiv terapi"],
     description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för barn som behöver uppmuntran och aktivt engagemang.",
-    avatar: "/Elvis.jpg",
+    avatar: "/Elvis2.jpg",
     color: "#6B4423",
     accentColor: "#F5F1ED",
     funFacts: [
