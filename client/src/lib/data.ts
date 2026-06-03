@@ -4,8 +4,8 @@ export const dogs = [
     name: "Elvis",
     title: "Den unge upptäcktsresanden",
     personality: ["Gladlynt", "Aktiv", "Smart", "Lekfull", "Energisk"],
-    idealFor: ["Aktiva barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "Interaktiv terapi"],
-    description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för barn som behöver uppmuntran och aktivt engagemang.",
+    idealFor: ["Aktiva barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "gos och mys"],
+    description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för alla som behöver uppmuntran och aktivt engagemang.",
     avatar: "/Elvis2.jpg",
     color: "#6B4423",
     accentColor: "#F5F1ED",
@@ -27,7 +27,7 @@ export const dogs = [
     name: "Sunny",
     title: "Den lugna kompanjonen",
     personality: ["Lugn", "Fredlig", "Mild", "Tålmodig", "Kärleksfull"],
-    idealFor: ["Äldrevård", "Promenader", "Känslomässig komfort", "Tyst sällskap"],
+    idealFor: ["Äldrevård", "Promenader", "Känslomässig komfort", "Lyssnar intresserat vid läsning"],
     description: "Sunny är den milda själen i vårt team. Med sin varma närvaro och tålmodiga natur ger hon tröst och emotionellt stöd. Hennes lugna uppträdande skapar en trygg plats för de som söker lugn och kontakt.",
     avatar: "/Sunny.jpg",
     color: "#A86B4A",
@@ -51,7 +51,7 @@ export const dogs = [
     title: "Allkonstnären",
     personality: ["Balanserad", "Erfaren", "Lugn men lekfull", "Pålitlig", "Vis"],
     idealFor: ["Blandade åldersgrupper", "Emotionellt stöd", "Flexibla aktiviteter", "Komplexa behov"],
-    description: "Ringo är det balanserade hjärtat i teamet. Med sin erfarenhet och mångsidighet anpassar han sig till alla situationer med elegans och visdom. Oavsett om han arbetar med barn eller äldre, bringar Ringo en lugn men lekfull energi som möter alla där de är.",
+    description: "Ringo är det balanserade veteranen i teamet. Med sin erfarenhet och mångsidighet anpassar han sig till alla situationer med elegans och visdom. Oavsett om han arbetar med barn eller äldre, bringar Ringo en lugn men lekfull energi som möter alla där de är.",
     avatar: "/Ringo.jpg",
     color: "#D4B896",
     accentColor: "#C9A876",
@@ -72,42 +72,42 @@ export const dogs = [
 
 export const services = [
   {
-    title: "Barns emotionella stöd",
-    description: "Terapissessioner utformade för att hjälpa barn att bygga självförtroende, hantera känslor och utveckla hälsosamma copingstrategier genom interaktion med våra besökshundar.",
+    title: "Emotionellt stöd till barn",
+    description: "Interventioner utformade för att hjälpa barn att bygga självförtroende, hantera känslor och utveckla hälsosamma strategier genom interaktion med våra besökshundar.",
     icon: "Heart"
   },
   {
     title: "Lässtödprogram",
-    description: "Barn läser högt för våra besökshundar i en lugn, omdömeslös miljö, vilket bygger självförtroende och förbättrar läsningsskills.",
+    description: "Barn läser högt för våra besökshundar i en lugn, kravlös miljö, vilket bygger självförtroende och förbättrar läsningsförmågan.",
     icon: "BookOpen"
   },
   {
-    title: "Besök för äldreomsorgen",
-    description: "Regelbundna besök på vårdhem och äldreboenden ger tröst, glädje och meningsfullt sällskap till äldre personer.",
+    title: "Besök på ¨äldreboenden",
+    description: "Regelbundna besök hos äldre på vårdhem ger tröst, glädje och en meningsfull stund tillsammans med hunden.",
     icon: "Users"
   },
   {
-    title: "Gruppaktivitetssessioner",
-    description: "Terapeutiska gruppsessioner som kombinerar interaktion med besökshundar, mindfulness och guidade aktiviteter för skolor och institutioner.",
+    title: "Gruppaktiviteter",
+    description: "gruppaktiviteter där deltagarna bjuds in till att känna delaktighet och engagemang tillsammans med besökshundarna i olika lekar och övningar som kan stärka grupptillhärigheten.",
     icon: "Users2"
   },
   {
-    title: "Individuella sessioner",
-    description: "Personliga en-till-en-terapisessioner skräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov.",
+    title: "Individuella möten",
+    description: "Personliga en-till-en-sessioner skräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov.",
     icon: "User"
   },
   {
     title: "Institutionella program",
-    description: "Anpassade terapihundsprogram för skolor, vårdhem och organisationer som vill förbättra välbefinnandet.",
+    description: "Anpassade besökshundsprogram för skolor, vårdhem och organisationer som vill förbättra välbefinnandet.",
     icon: "Building2"
   }
 ];
 
 export const testimonials = [
   {
-    name: "Anna Svensson",
-    role: "Parent",
-    content: "Elvis has been such a positive influence on my daughter. She was shy and anxious about reading, but after sessions with Elvis, she's become confident and excited about learning. The transformation has been remarkable.",
+    name: "Marie Sjögren",
+    role: "Hundförare",
+    content: "När jag med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen , han lägger sig tillrätta och genast slappnar av blir brukaren lugn , glad och nöjd, det är fina stunder.",
     dog: "Elvis"
   },
   {
@@ -133,15 +133,15 @@ export const testimonials = [
 export const faqs = [
   {
     question: "Vad är skillnaden mellan en besökshund och en servicehund?",
-    answer: "Besökshundar är tränade för att ge tröst och emotionellt stöd till flera personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för personer med funktionsnedsättningar. Medan besökshundar förbättrar emotionellt välbefinnande, hjälper servicehundar till med fysiska eller medicinska behov."
+    answer: "Besökshundar är tränade för att arbeta mot tredje personge tröst och emotionellt stöd till andra personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för sin egen ägare, personer med funktionsnedsättningar. Medan besökshundar förbättrar emotionellt välbefinnande, hjälper servicehundar till med fysiska eller medicinska behov."
   },
   {
     question: "Är besökshundarna certifierade?",
-    answer: "Ja, alla våra besökshundar är certifierade och utvärderas regelbundet för att säkerställa att de uppfyller de högsta standarderna för beteende, träning och hälsa. Marie fortsätter sin professionella utveckling för att ge bästa möjliga vård och terapi."
+    answer: "Ja, alla våra besökshundar är certifierade och testas regelbundet för att säkerställa att de fortsatt uppskattar sitt arbete, och är friska. Marie deltar också i de kurser och utbildningar som ges där man kan få vidareutbildning inom området."
   },
   {
-    question: "Hur långa är typiska terapisessioner?",
-    answer: "Sessionerna varar vanligtvis från 30 minuter till en timme, beroende på individens behov och typ av terapi. Marie kommer att arbeta med dig för att bestämma den bästa längden och frekvensen för din specifika situation."
+    question: "Hur långa är hundinterventionerna?",
+    answer: "Hunden arbetar 30-60 minuter beroende på vilket uppdrag det gäller. Marie kommer att diskutera fram ett passande upplägg med digarbeta med dig."
   },
   {
     question: "Är hundarna trygga i närheten av barn och äldre?",
@@ -153,6 +153,6 @@ export const faqs = [
   },
   {
     question: "Hur bokar jag en session?",
-    answer: "Fyll bara i kontaktformuläret på vår webbplats, ring oss eller skicka ett e-postmeddelande. Marie kommer att svara snabbt för att diskutera dina behov och boka en lämplig tid för din första session."
+    answer: "Fyll i kontaktformuläret på vår webbplats, ring oss eller skicka ett e-postmeddelande. Vi kommer svara snabbt för att diskutera dina behov och boka ett lämpligt upplägg."
   }
 ];

@@ -133,11 +133,12 @@ export default function Home() {
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <span>Lässupport och självförtroende</span>
+                    <span>Lässupport och självförtroende, lyssnar utan att vara dömande/span>
                   </li>
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <span>Emotionell reglering och coping-skills</span>
+                    <span>Emotionell reglering och stresshantering
+                    </span>
                   </li>
                   <li className="flex gap-3">
                     <Users2 size={20} className="text-accent flex-shrink-0 mt-1" />
@@ -145,7 +146,7 @@ export default function Home() {
                   </li>
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <span>Tryggt, icke-dömande utrymme för uttryck</span>
+                    <span>Trygghet och pedagogiskt stöd</span>
                   </li>
                 </ul>
               </div>
@@ -270,7 +271,7 @@ export default function Home() {
                 Kontakta oss
               </h2>
               <p className="text-lg text-foreground/80">
-                Redo för att uppleva helande kraften hos besökshund? Kontakta Marie för att boka en session eller lära dig mer om våra tjänster.
+                Redo att uppleva den helande kraften hos en besökshund? Kontakta Marie för att boka en session eller lära dig mer om våra tjänster.
               </p>
             </div>
 
@@ -279,20 +280,20 @@ export default function Home() {
                 <div className="text-4xl mb-4">📞</div>
                 <h3 className="font-semibold text-foreground mb-2">Telefon</h3>
                 <a href="tel:+46701234567" className="text-accent hover:text-accent/80 transition-colors">
-                  +46 (0)70 123 45 67
+                  +46 (0)70 773 67 27
                 </a>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">✉️</div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
                 <a href="mailto:marie@terapihund.se" className="text-accent hover:text-accent/80 transition-colors">
-                  marie@terapihund.se
+                  mariesjogren14139@gmail.com
                 </a>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-4">📍</div>
                 <h3 className="font-semibold text-foreground mb-2">Plats</h3>
-                <p className="text-foreground/80">Stockholm, Sverige</p>
+                <p className="text-foreground/80">Huddinge, Stockholm, Sverige</p>
               </div>
             </div>
 
