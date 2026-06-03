@@ -119,7 +119,7 @@ export const testimonials = [
   {
     name: "Ingrid Andersson",
     role: "Senior Care Coordinator",
-    content: "Sunny!!!!!!! visits our care home every week, and the residents absolutely adore her. The joy and connection she brings is immeasurable. We've seen improvements in mood, social engagement, and overall wellbeing.",
+    content: "Sunny!!!!!!!!!!!!!!!!!!!!!! visits our care home every week, and the residents absolutely adore her. The joy and connection she brings is immeasurable. We've seen improvements in mood, social engagement, and overall wellbeing.",
     dog: "Sunny"
   },
   {

@@ -133,7 +133,7 @@ export default function Home() {
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <span>Lässupport och självförtroende, lyssnar utan att vara dömande/span>
+                    <span>Lässupport och självförtroende, lyssnar utan att vara dömande</span>
                   </li>
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
