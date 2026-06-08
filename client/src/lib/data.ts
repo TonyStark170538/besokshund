@@ -4,7 +4,7 @@ export const dogs = [
     name: "Elvis",
     title: "Den unge upptäcktsresanden",
     personality: ["Gladlynt", "Aktiv", "Smart", "Lekfull", "Energisk"],
-    idealFor: ["Aktiva barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "gos och mys"],
+    idealFor: ["Barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "Gos och mys"],
     description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för alla som behöver uppmuntran och aktivt engagemang.",
     avatar: "/Elvis2.jpg",
     color: "#6B4423",
@@ -27,7 +27,7 @@ export const dogs = [
     name: "Sunny",
     title: "Den lugna kompanjonen",
     personality: ["Lugn", "Fredlig", "Mild", "Tålmodig", "Kärleksfull"],
-    idealFor: ["Äldrevård", "Promenader", "Känslomässig komfort", "Lyssnar intresserat vid läsning"],
+    idealFor: ["Äldrevård", "Promenader", "Känslomässigt välbefinnande", "Högläsning"],
     description: "Sunny är den milda själen i vårt team. Med sin varma närvaro och tålmodiga natur ger hon tröst och emotionellt stöd. Hennes lugna uppträdande skapar en trygg plats för de som söker lugn och kontakt.",
     avatar: "/Sunny.jpg",
     color: "#A86B4A",
@@ -49,7 +49,7 @@ export const dogs = [
     id: "ringo",
     name: "Ringo",
     title: "Allkonstnären",
-    personality: ["Balanserad", "Erfaren", "Lugn men lekfull", "Pålitlig", "Vis"],
+    personality: ["Balanserad", "Erfaren", "Lekfull", "Pålitlig", "Vis"],
     idealFor: ["Blandade åldersgrupper", "Emotionellt stöd", "Flexibla aktiviteter", "Komplexa behov"],
     description: "Ringo är det balanserade veteranen i teamet. Med sin erfarenhet och mångsidighet anpassar han sig till alla situationer med elegans och visdom. Oavsett om han arbetar med barn eller äldre, bringar Ringo en lugn men lekfull energi som möter alla där de är.",
     avatar: "/Ringo.jpg",
@@ -77,23 +77,23 @@ export const services = [
     icon: "Heart"
   },
   {
-    title: "Lässtödprogram",
-    description: "Barn läser högt för våra besökshundar i en lugn, kravlös miljö, vilket bygger självförtroende och förbättrar läsningsförmågan.",
+    title: "Lässtödsprogram",
+    description: "Barn läser högt för våra besökshundar i en lugn, kravlös miljö, vilket bygger självförtroende och förbättrar läsförmågan.",
     icon: "BookOpen"
   },
   {
-    title: "Besök på ¨äldreboenden",
+    title: "Besök på äldreboenden",
     description: "Regelbundna besök hos äldre på vårdhem ger tröst, glädje och en meningsfull stund tillsammans med hunden.",
     icon: "Users"
   },
   {
     title: "Gruppaktiviteter",
-    description: "gruppaktiviteter där deltagarna bjuds in till att känna delaktighet och engagemang tillsammans med besökshundarna i olika lekar och övningar som kan stärka grupptillhärigheten.",
+    description: "Gruppaktiviteter där deltagarna bjuds in till att känna delaktighet och engagemang tillsammans med besökshundarna i olika lekar och övningar som stärker grupptillhörigheten.",
     icon: "Users2"
   },
   {
     title: "Individuella möten",
-    description: "Personliga en-till-en-sessioner skräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov.",
+    description: "Personliga mötenskräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov. tex elever med problematisk skolfrånvaro.",
     icon: "User"
   },
   {
@@ -107,6 +107,7 @@ export const testimonials = [
   {
     name: "Marie Sjögren",
     role: "Hundförare",
+
     content: "När jag med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen , han lägger sig tillrätta och genast slappnar av blir brukaren lugn , glad och nöjd, det är fina stunder.",
     dog: "Elvis"
   },

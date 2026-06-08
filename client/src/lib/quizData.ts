@@ -21,7 +21,7 @@ export interface QuizResult {
 export const quizQuestions: QuizQuestion[] = [
   {
     id: "q1",
-    question: "Vilken energinivå föredrar du?",
+    question: "Vilken energinivå på hundenföredrar du?",
     answers: [
       {
         text: "Hög energi och lekfull",
