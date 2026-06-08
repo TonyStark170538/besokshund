@@ -194,7 +194,7 @@ export function PersonalityQuiz() {
             <button
               key={index}
               onClick={() => handleAnswer(index)}
-              className="w-full p-4 md:p-5 rounded-2xl border-2 border-border text-left transition-all duration-200 hover:border-accent hover:bg-accent hover:bg-opacity-10 group"
+              className="w-full p-4 md:p-5 rounded-2xl border-2 border-border text-left transition-all duration-200 hover:border-accent hover:bg-accent/10 group"
             >
               <div className="flex items-center justify-between">
                 <span className="font-medium text-foreground group-hover:text-accent">

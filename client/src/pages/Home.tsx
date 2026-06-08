@@ -166,7 +166,7 @@ export default function Home() {
                   </li>
                   <li className="flex gap-3">
                     <Heart size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <span>Stress - och ångestlindring</span>
+                    <span>Stress- och ångestlindring</span>
                   </li>
                   <li className="flex gap-3">
                     <Users size={20} className="text-accent flex-shrink-0 mt-1" />
