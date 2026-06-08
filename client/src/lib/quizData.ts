@@ -21,90 +21,90 @@ export interface QuizResult {
 export const quizQuestions: QuizQuestion[] = [
   {
     id: "q1",
-    question: "What kind of energy level do you prefer?",
+    question: "Vilken energinivå föredrar du?",
     answers: [
       {
-        text: "High energy and playful",
+        text: "Hög energi och lekfull",
         scores: { elvis: 10, sunny: 2, ringo: 5 },
       },
       {
-        text: "Calm and relaxing",
+        text: "Lugn och avslappnad",
         scores: { elvis: 2, sunny: 10, ringo: 5 },
       },
       {
-        text: "Balanced and adaptable",
+        text: "Balanserad och anpassningsbar",
         scores: { elvis: 5, sunny: 5, ringo: 10 },
       },
     ],
   },
   {
     id: "q2",
-    question: "Who will be interacting with the therapy dog?",
+    question: "Vilka kommer att interagera med hunden?",
     answers: [
       {
-        text: "Active children",
+        text: "Högaktiva barn",
         scores: { elvis: 10, sunny: 3, ringo: 6 },
       },
       {
-        text: "Elderly or senior adults",
+        text: "Vuxna eller åldrade personer",
         scores: { elvis: 2, sunny: 10, ringo: 6 },
       },
       {
-        text: "Mixed age groups",
+        text: "Blandade åldersgrupper",
         scores: { elvis: 5, sunny: 5, ringo: 10 },
       },
     ],
   },
   {
     id: "q3",
-    question: "What is your primary goal?",
+    question: "Vad är ditt primära mål?",
     answers: [
       {
-        text: "Build confidence and engagement",
+        text: "öka självförtroende och socialt engagemang",
         scores: { elvis: 10, sunny: 3, ringo: 6 },
       },
       {
-        text: "Provide comfort and emotional support",
+        text: "Ge tröst och emotionell support",
         scores: { elvis: 2, sunny: 10, ringo: 6 },
       },
       {
-        text: "Flexible support for various needs",
+        text: "olika aktiviteter och flexibilitet utifrån det iindividuella behovet",
         scores: { elvis: 5, sunny: 5, ringo: 10 },
       },
     ],
   },
   {
     id: "q4",
-    question: "What type of activities interest you?",
+    question: "Vilka typer av aktiviteter intresserar dig?",
     answers: [
       {
-        text: "Interactive games and active play",
+        text: "Interaktiva spel och aktiv lek",
         scores: { elvis: 10, sunny: 2, ringo: 5 },
       },
       {
-        text: "Quiet companionship and relaxation",
+        text: "Lugnt och avslappnande umgänge tillsammans med hunden",
         scores: { elvis: 2, sunny: 10, ringo: 5 },
       },
       {
-        text: "Varied activities based on mood",
+        text: "Varierade aktiviteter beroende på humör",
         scores: { elvis: 5, sunny: 5, ringo: 10 },
       },
     ],
   },
   {
     id: "q5",
-    question: "How would you describe your personality?",
+    question: "Hur skulle du beskriva din personlighet?",
     answers: [
       {
-        text: "Outgoing and enthusiastic",
+        text: "energisk och entusiastisk",
         scores: { elvis: 10, sunny: 3, ringo: 6 },
       },
       {
-        text: "Calm and introspective",
+        text: "Lugn och insiktsfull",
         scores: { elvis: 2, sunny: 10, ringo: 6 },
       },
       {
-        text: "Flexible and adaptable",
+        text: "Flexible and anpassningsbar",
         scores: { elvis: 5, sunny: 5, ringo: 10 },
       },
     ],

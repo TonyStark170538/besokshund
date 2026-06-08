@@ -53,7 +53,7 @@ export function PersonalityQuiz() {
           Hitta din perfekta matchning
         </h3>
         <p className="text-lg text-foreground/70 max-w-2xl mx-auto mb-8">
-          Ta vår snabba personlighetstest för att hitta vilken terapihund som är den bästa matchningen för dina behov och personlighet. Svara på 5 enkla frågor och få personliga rekommendationer!
+          Ta vårt snabba personlighetstest för att hitta vilken hund som har den bästa kompetensen och personligheten för dina behov. Svara på 5 enkla frågor och få personliga rekommendationer!
         </p>
         <Button
           onClick={() => setIsStarted(true)}
