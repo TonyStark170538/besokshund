@@ -107,13 +107,13 @@ export const testimonials = [
   {
     name: "Massimo",
     role: "Aktivitetsansvarig Attendo",
-    content: "Jag tänker tex så här, När Marie med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen och han lägger sig tillrätta upplever jag hur personen blir glad, nöjd och slappnar av, det är fina stunder.",
+    content: "När Marie med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen och han lägger sig tillrätta upplever jag hur personen blir glad, nöjd och slappnar av, det är fina stunder.",
     dog: "Ringo"
   },
   {
-    name: "!!Dr. Erik Bergström",
-    role: "School Psychologist",
-    content: "The therapy dogs bring an irreplaceable element to our school. Children open up in ways they don't with traditional therapy. Marie's professionalism and the dogs' gentle nature create the perfect environment for healing.",
+    name: "Anonym",
+    role: "Boende på Attendo",
+    content: "Jag känner mig lika avslappnad som Ringo när han ligger hos mig i sängen och min puls och andning saktar ner.",
     dog: "Ringo"
   },
   {

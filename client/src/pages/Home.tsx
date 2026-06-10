@@ -178,7 +178,7 @@ export default function Home() {
 
             <div className="bg-accent/10 border-l-4 border-accent rounded-lg p-8">
               <p className="text-lg text-foreground leading-relaxed">
-                <strong>Besökshund</strong> är utbildade för att ge tröst och emotionellt stöd till flera personer i olika miljöer. Till skillnad från servicehundar som utför specifika uppgifter för personer med funktionsnedsättningar, förbättrar besökshund emotionellt välbefinnande genom sin lugnande närvaro, villkorslösa tillgivenhet och intuitiva förståelse för mänskliga känslor.
+                <strong>Besökshundar </strong> är utbildade för att till exempel ge tröst och emotionellt stöd, lust till socialt samspel, hjälp att hantera smärta, stimulans till rörelse ute och inne, känsla av mening och sammanhang och ge glädje!
               </p>
             </div>
           </div>

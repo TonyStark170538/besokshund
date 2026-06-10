@@ -127,7 +127,7 @@ export function calculateQuizResult(scores: {
     dogId = "elvis";
     dogName = "Elvis";
     message =
-      "Elvis är en perfekt match för er! Er energi passar perfekt ihop med Elvis lekfulla natur. Tillsammans skapar ni glädjefyllda och engagerande upplevelser som väcker leenden och självförtroende hos alla omkring dig.";
+      "Elvis är en perfekt match för er! Er energi passar perfekt ihop med Elvis lekfulla natur. Tillsammans skapar ni glädjefyllda och engagerande upplevelser som väcker leenden och självförtroende hos alla omkring er.";
   } else if (scores.sunny === maxScore && scores.sunny > scores.elvis && scores.sunny > scores.ringo) {
     dogId = "sunny";
     dogName = "Sunny";
