@@ -36,7 +36,7 @@ export function TestimonialCard({
         <p className="font-semibold text-foreground">{name}</p>
         <p className="text-sm text-muted-foreground">{role}</p>
         <p className="text-sm text-accent font-medium mt-2">
-          About {dog}
+          Om {dog}
         </p>
       </div>
     </div>
