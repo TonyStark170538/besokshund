@@ -222,7 +222,7 @@ export default function Home() {
               Vad folk säger
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Hör från familjer, pedagoger och vårdgivare om effekten av besökshund.
+              Hört från familjer, pedagoger och vårdgivare om effekten av besökshund.
             </p>
           </div>
 

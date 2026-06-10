@@ -105,26 +105,25 @@ export const services = [
 
 export const testimonials = [
   {
-    name: "Marie Sjögren",
-    role: "Hundförare",
-
-    content: "När jag med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen , han lägger sig tillrätta och genast slappnar av blir brukaren lugn , glad och nöjd, det är fina stunder.",
-    dog: "Elvis"
+    name: "Massimo",
+    role: "Aktivitetsansvarig Attendo",
+    content: "Jag tänker tex så här, När Marie med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen och han lägger sig tillrätta upplever jag hur personen blir glad, nöjd och slappnar av, det är fina stunder.",
+    dog: "Ringo"
   },
   {
-    name: "Dr. Erik Bergström",
+    name: "!!Dr. Erik Bergström",
     role: "School Psychologist",
     content: "The therapy dogs bring an irreplaceable element to our school. Children open up in ways they don't with traditional therapy. Marie's professionalism and the dogs' gentle nature create the perfect environment for healing.",
     dog: "Ringo"
   },
   {
-    name: "Ingrid Andersson",
-    role: "Senior Care Coordinator",
-    content: "Sunny visits our care home every week, and the residents absolutely adore her. The joy and connection she brings is immeasurable. We've seen improvements in mood, social engagement, and overall wellbeing.",
+    name: "Massimo",
+    role: "Aktivitetsansvarig Attendo",
+    content: "Det är så roligt när Marie kommer med sina hundar, Sunny som är så mjuk och fin roar alla med sin skicklighet att leta godisar både här och där. Hon är en riktig glädjespridare! Alla känner sig delaktiga och ser fram emot dessa möten.",
     dog: "Sunny"
   },
   {
-    name: "Magnus Lundström",
+    name: "!Magnus Lundström",
     role: "Teacher",
     content: "Having the therapy dogs in our classroom has been transformative. The children are calmer, more focused, and more empathetic. It's clear that these dogs are doing important work.",
     dog: "Elvis"
