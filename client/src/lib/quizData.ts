@@ -21,7 +21,7 @@ export interface QuizResult {
 export const quizQuestions: QuizQuestion[] = [
   {
     id: "q1",
-    question: "Vilken energinivå på hundenföredrar du?",
+    question: "Vilken energinivå på hunden föredrar du?",
     answers: [
       {
         text: "Hög energi och lekfull",
@@ -93,19 +93,19 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q5",
-    question: "Hur skulle du beskriva din personlighet?",
+    question: "Hur skulle du beskriva personligheten på den som träffar hunden?",
     answers: [
       {
         text: "Energisk och entusiastisk",
         scores: { elvis: 10, sunny: 3, ringo: 6 },
       },
       {
-        text: "Lugn och insiktsfull",
+        text: "Lugn och i behov av socialt samspel med hund och andra",
         scores: { elvis: 2, sunny: 10, ringo: 6 },
       },
       {
-        text: "Flexible and anpassningsbar",
-        scores: { elvis: 5, sunny: 5, ringo: 10 },
+        text: "Flexible and anpassningsbar, gärna promenader",
+        scores: { elvis: 5, sunny: 7, ringo: 10 },
       },
     ],
   },
@@ -127,17 +127,17 @@ export function calculateQuizResult(scores: {
     dogId = "elvis";
     dogName = "Elvis";
     message =
-      "Du är en perfekt matchning för Elvis! Din energiska anda och entusiasm passar perfekt ihop med Elvis lekfulla natur. Tillsammans skapar ni glädjefyllda och engagerande upplevelser som väcker leenden och självförtroende hos alla omkring dig.";
+      "Elvis är en perfekt match för er! Er energi passar perfekt ihop med Elvis lekfulla natur. Tillsammans skapar ni glädjefyllda och engagerande upplevelser som väcker leenden och självförtroende hos alla omkring dig.";
   } else if (scores.sunny === maxScore && scores.sunny > scores.elvis && scores.sunny > scores.ringo) {
     dogId = "sunny";
     dogName = "Sunny";
     message =
-      "Sunny är din perfekta följeslagare! Din lugna, medkännande natur kompletterar Sunnys milda anda. Tillsammans skapar ni fridfulla, stödjande stunder som ger tröst och känslomässig kontakt till dem som behöver det mest.";
+      "Sunny låter som den perfekta följeslagaren! Med hennes lugna, inkännande natur kommer ni tillsammans skapa fridfulla, stödjande stunder som ger tröst och känslomässig kontakt med dem som behöver det mest.";
   } else {
     dogId = "ringo";
     dogName = "Ringo";
     message =
-      "Ringo är din perfekta matchning! Din balanserade och anpassningsbara inställning passar utmärkt ihop med Ringos mångsidiga natur. Tillsammans kommer ni att navigera i olika situationer med elegans och ge rätt energi och stöd till varje person ni möter.";
+      "Ringo passar er perfek! Hans balanserade och anpassningsbara inställning och mångsidiga natur kommer tillsammans med er att navigera fram i olika situationer med elegans och ge rätt energi och stöd till varje person ni möter.";
   }
 
   const matchPercentage = Math.round((maxScore / (total / 3)) * 100);

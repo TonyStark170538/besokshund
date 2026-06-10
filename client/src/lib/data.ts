@@ -133,15 +133,15 @@ export const testimonials = [
 export const faqs = [
   {
     question: "Vad är skillnaden mellan en besökshund och en servicehund?",
-    answer: "Besökshundar är tränade för att arbeta mot tredje personge tröst och emotionellt stöd till andra personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för sin egen ägare, personer med funktionsnedsättningar. Medan besökshundar förbättrar emotionellt välbefinnande, hjälper servicehundar till med fysiska eller medicinska behov."
+    answer: "Besökshundar är tränade för att arbeta mot tredje person, ge tröst och emotionellt stöd till andra personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för sin egen ägare, personer med olika funktionsnedsättningar. Medan besökshundar förbättrar emotionellt välbefinnande, hjälper servicehundar sin egen förare med fysiska eller medicinska behov."
   },
   {
     question: "Är besökshundarna certifierade?",
-    answer: "Ja, alla våra besökshundar är certifierade och testas regelbundet för att säkerställa att de fortsatt uppskattar sitt arbete, och är friska. Marie deltar också i de kurser och utbildningar som ges där man kan få vidareutbildning inom området."
+    answer: "Ja, alla våra besökshundar är certifierade eller lämplighetstestade och under utbildning. Regelbundet veterinärbesiktigas och testas de också för att säkerställa att de fortsatt uppskattar sitt arbete, och är friska. Marie deltar också i kurser och utbildningar för att få vidareutbildning inom området."
   },
   {
     question: "Hur långa är hundinterventionerna?",
-    answer: "Hunden arbetar 30-60 minuter beroende på vilket uppdrag det gäller. Marie kommer att diskutera fram ett passande upplägg med digarbeta med dig."
+    answer: "Hunden arbetar 30-60 minuter beroende på vilket uppdrag det gäller. Marie kommer att diskutera fram ett passande upplägg med dig."
   },
   {
     question: "Är hundarna trygga i närheten av barn och äldre?",
@@ -153,6 +153,6 @@ export const faqs = [
   },
   {
     question: "Hur bokar jag en session?",
-    answer: "Fyll i kontaktformuläret på vår webbplats, ring oss eller skicka ett e-postmeddelande. Vi kommer svara snabbt för att diskutera dina behov och boka ett lämpligt upplägg."
+    answer: "Fyll i kontaktformuläret på vår webbplats, ring eller skicka ett e-postmeddelande. Du kommer snabbt få svar och vi kan diskutera dina behov och boka ett möte."
   }
 ];

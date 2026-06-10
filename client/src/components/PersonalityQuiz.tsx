@@ -59,7 +59,7 @@ export function PersonalityQuiz() {
           onClick={() => setIsStarted(true)}
           className="btn-primary text-lg px-8 py-6"
         >
-          Starta frågesporten
+          Starta quiz
         </Button>
       </div>
     );

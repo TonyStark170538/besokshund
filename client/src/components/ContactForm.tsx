@@ -107,11 +107,11 @@ export function ContactForm() {
           onChange={handleChange}
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
         >
-          <option value="general">Allmän förfrågan</option>
-          <option value="children">Barns terapi</option>
-          <option value="seniors">Seniorvård</option>
-          <option value="reading">Lässupport</option>
-          <option value="institutional">Institutionellt program</option>
+          <option value="general">Allmän frågan</option>
+          <option value="children">Barn</option>
+          <option value="seniors">Läsning</option>
+          <option value="reading">Äldre</option>
+          <option value="institutional">Problematisk skolfrånvaro</option>
           <option value="other">Övrigt</option>
         </select>
       </div>
