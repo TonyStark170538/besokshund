@@ -6,7 +6,7 @@ export const dogs = [
     personality: ["Gladlynt", "Aktiv", "Smart", "Lekfull", "Energisk"],
     idealFor: ["Barn", "Glatt sällskap i olika aktiviteter", "Självförtroendeskapande", "Gos och mys"],
     description: "Elvis är lagets energiska hjärta. Med sin lekfulla anda och snabba intelligens ger han glädje och spänning till varje session. Hans gränslösa entusiasm gör honom perfekt för alla som behöver uppmuntran och aktivt engagemang.",
-    avatar: "/Elvis3.png",
+    avatar: "/elvis0.png",
     color: "#6B4423",
     accentColor: "#F5F1ED",
     funFacts: [
@@ -29,7 +29,7 @@ export const dogs = [
     personality: ["Lugn", "Fredlig", "Mild", "Tålmodig", "Kärleksfull"],
     idealFor: ["Äldrevård", "Promenader", "Känslomässigt välbefinnande", "Högläsning"],
     description: "Sunny är den milda själen i vårt team. Med sin varma närvaro och tålmodiga natur ger hon tröst och emotionellt stöd. Hennes lugna uppträdande skapar en trygg plats för de som söker lugn och kontakt.",
-    avatar: "/Sunny2.png",
+    avatar: "/sunny21.png",
     color: "#A86B4A",
     accentColor: "#D4A574",
     funFacts: [
