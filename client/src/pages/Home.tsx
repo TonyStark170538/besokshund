@@ -1,12 +1,11 @@
-import { Heart, Users, Users2 } from "lucide-react";
+import { ExternalLink, Headphones, Heart, Users, Users2 } from "lucide-react";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { DogCard } from "@/components/DogCard";
 import { ServiceCard } from "@/components/ServiceCard";
-import { TestimonialCard } from "@/components/TestimonialCard";
 import { ContactForm } from "@/components/ContactForm";
 import { PersonalityQuiz } from "@/components/PersonalityQuiz";
-import { dogs, services, testimonials, faqs } from "@/lib/data";
+import { dogs, services, faqs } from "@/lib/data";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export default function Home() {
@@ -62,7 +61,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663526201017/Nv66AfvEoMtUdNgZMyJxs4/hero-marie-dogs.png"
+                src="/marie3.png"
                 alt="Marie with therapy dogs"
                 className="rounded-3xl shadow-soft-lg"
               />
@@ -214,28 +213,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="section-padding bg-background">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Vad folk säger
-            </h2>
-            <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Hört från familjer, pedagoger och vårdgivare om effekten av besökshund.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} data-scroll-animate style={{ animationDelay: `${index * 100}ms` }}>
-                <TestimonialCard {...testimonial} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="section-padding bg-card">
         <div className="container">
@@ -243,6 +220,50 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-foreground">
               Vanliga frågor
             </h2>
+
+            <div className="mb-12 overflow-hidden rounded-3xl border-2 border-accent/30 bg-[#F5E6D3] shadow-lg">
+              <div className="p-6 md:p-8">
+                <div className="mb-5 flex items-center gap-3 text-accent">
+                  <div className="flex size-12 items-center justify-center rounded-full bg-accent text-accent-foreground">
+                    <Headphones size={24} />
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-wide text-accent/80">
+                      Podcast
+                    </p>
+                    <h3 className="text-2xl font-bold text-foreground">
+                      Lyssna på vårt samtal
+                    </h3>
+                  </div>
+                </div>
+
+                <p className="mb-6 text-foreground/80 leading-relaxed">
+                  Hör mer om besökshundar, relationen mellan människa och hund och arbetet bakom trygga möten.
+                </p>
+
+                <div className="overflow-hidden rounded-2xl border border-accent/20 bg-card">
+                  <iframe
+                    title="Spotify podcast episode"
+                    src="https://open.spotify.com/embed/episode/2KVS4gkbiePJI8ORMauPjo?utm_source=generator"
+                    width="100%"
+                    height="152"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                    className="block"
+                  />
+                </div>
+
+                <a
+                  href="https://open.spotify.com/episode/2KVS4gkbiePJI8ORMauPjo?si=f2rCOXFjTQap1JJpfQuB8w"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 font-semibold text-accent-foreground transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                >
+                  Lyssna på Spotify
+                  <ExternalLink size={18} />
+                </a>
+              </div>
+            </div>
 
             <div className="space-y-4">
               {faqs.map((faq, index) => (

@@ -52,7 +52,7 @@ export const dogs = [
     personality: ["Balanserad", "Erfaren", "Lekfull", "Pålitlig", "Vis"],
     idealFor: ["Blandade åldersgrupper", "Emotionellt stöd", "Flexibla aktiviteter", "Komplexa behov"],
     description: "Ringo är det balanserade veteranen i teamet. Med sin erfarenhet och mångsidighet anpassar han sig till alla situationer med elegans och visdom. Oavsett om han arbetar med barn eller äldre, bringar Ringo en lugn men lekfull energi som möter alla där de är.",
-    avatar: "/Ringo.jpg",
+    avatar: "/ringo.png",
     color: "#6B4423",
     accentColor: "#B88755",
     funFacts: [
@@ -93,40 +93,13 @@ export const services = [
   },
   {
     title: "Individuella möten",
-    description: "Personliga mötenskräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov. tex elever med problematisk skolfrånvaro.",
+    description: "Personliga möten skräddarsydda för specifika emotionella, sociala eller utvecklingsmässiga behov. tex elever med problematisk skolfrånvaro.",
     icon: "User"
   },
   {
     title: "Institutionella program",
     description: "Anpassade besökshundsprogram för skolor, vårdhem och organisationer som vill förbättra välbefinnandet.",
     icon: "Building2"
-  }
-];
-
-export const testimonials = [
-  {
-    name: "Massimo",
-    role: "Aktivitetsansvarig Attendo",
-    content: "När Marie med Ringos tillåtelse lägger honom i knät eller på bröstet på en patient i sängen och han lägger sig tillrätta upplever jag hur personen blir glad, nöjd och slappnar av, det är fina stunder.",
-    dog: "Ringo"
-  },
-  {
-    name: "Anonym",
-    role: "Boende på Attendo",
-    content: "Jag känner mig lika avslappnad som Ringo när han ligger hos mig i sängen och min puls och andning saktar ner.",
-    dog: "Ringo"
-  },
-  {
-    name: "Massimo",
-    role: "Aktivitetsansvarig Attendo",
-    content: "Det är så roligt när Marie kommer med sina hundar, Sunny som är så mjuk och fin roar alla med sin skicklighet att leta godisar både här och där. Hon är en riktig glädjespridare! Alla känner sig delaktiga och ser fram emot dessa möten.",
-    dog: "Sunny"
-  },
-  {
-    name: "!Magnus Lundström",
-    role: "Teacher",
-    content: "Having the therapy dogs in our classroom has been transformative. The children are calmer, more focused, and more empathetic. It's clear that these dogs are doing important work.",
-    dog: "Elvis"
   }
 ];
 
