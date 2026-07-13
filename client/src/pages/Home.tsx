@@ -180,48 +180,8 @@ export default function Home() {
                 <strong>Besökshundar </strong> är utbildade för att till exempel ge tröst och emotionellt stöd, lust till socialt samspel, hjälp att hantera smärta, stimulans till rörelse ute och inne, känsla av mening och sammanhang och ge glädje!
               </p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Services Section */}
-      <section id="services" className="section-padding bg-background">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-              Våra tjänster
-            </h2>
-            <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Skräddarsydda besökshundsprogram utformade för att möta dina unika behov och mål.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <div key={index} data-scroll-animate style={{ animationDelay: `${index * 100}ms` }}>
-                <ServiceCard {...service} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Personality Quiz Section */}
-      <section id="quiz" className="section-padding bg-card">
-        <div className="container">
-          <PersonalityQuiz />
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="section-padding bg-card">
-        <div className="container">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-foreground">
-              Vanliga frågor
-            </h2>
-
-            <div className="mb-12 overflow-hidden rounded-3xl border-2 border-accent/30 bg-[#F5E6D3] shadow-lg">
+            <div className="mt-12 overflow-hidden rounded-3xl border-2 border-accent/30 bg-[#F5E6D3] shadow-lg">
               <div className="p-6 md:p-8">
                 <div className="mb-5 flex items-center gap-3 text-accent">
                   <div className="flex size-12 items-center justify-center rounded-full bg-accent text-accent-foreground">
@@ -264,6 +224,46 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="section-padding bg-background">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+              Våra tjänster
+            </h2>
+            <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
+              Skräddarsydda besökshundsprogram utformade för att möta dina unika behov och mål.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service, index) => (
+              <div key={index} data-scroll-animate style={{ animationDelay: `${index * 100}ms` }}>
+                <ServiceCard {...service} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Personality Quiz Section */}
+      <section id="quiz" className="section-padding bg-card">
+        <div className="container">
+          <PersonalityQuiz />
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section-padding bg-card">
+        <div className="container">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-foreground">
+              Vanliga frågor
+            </h2>
 
             <div className="space-y-4">
               {faqs.map((faq, index) => (
