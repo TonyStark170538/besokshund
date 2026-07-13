@@ -118,7 +118,7 @@ export default function Home() {
 
             <div className="rounded-3xl overflow-hidden shadow-soft-lg mb-12">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663526201017/Nv66AfvEoMtUdNgZMyJxs4/therapy-concept-illustration.png"
+                src="/work.png"
                 alt="Therapy dogs in schools and care homes"
                 className="w-full h-auto"
               />
