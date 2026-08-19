@@ -106,7 +106,7 @@ export const services = [
 export const faqs = [
   {
     question: "Vad är skillnaden mellan en besökshund och en servicehund?",
-    answer: "Besökshundar är tränade för att arbeta mot tredje person, ge tröst och emotionellt stöd till andra personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för sin egen ägare, personer med olika funktionsnedsättningar. Medan besökshundar förbättrar emotionellt välbefinnande, hjälper servicehundar sin egen förare med fysiska eller medicinska behov."
+    answer: "Besökshundar är tränade för att arbeta mot tredje person, ge tröst och emotionellt stöd till andra personer i olika miljöer som skolor, sjukhus och vårdhem. Servicehundar, å andra sidan, är tränade för att utföra specifika uppgifter för sin egen ägare, personer med olika funktionsnedsättningar. "
   },
   {
     question: "Är besökshundarna certifierade?",

@@ -33,7 +33,7 @@ export function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (FORMSPREE_ENDPOINT === "PASTE_YOUR_FORMSPREE_LINK_HERE") {
+    if (FORMSPREE_ENDPOINT === "https://formspree.io/f/xvkpdayn") {
       toast.error("Formuläret är inte korrekt konfigurerat ännu.");
       return;
     }
