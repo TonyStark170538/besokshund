@@ -21,9 +21,11 @@ export default function Home() {
             <div className="rounded-2xl overflow-hidden shadow-lg bg-card">
               <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
                 <iframe
+                  title="Besökshund video"
                   className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/__hTKEuED2M"
+                  src="https://www.youtube-nocookie.com/embed/__hTKEuED2M?rel=0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
               </div>
@@ -43,10 +45,12 @@ export default function Home() {
                 Om Marie
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                Marie är certifierad skol-,terapi-och besökshundsteam tillsammans med Ringo, och har arbetat med honom sedan 2019, inom skola, vård och omsorg. Hennes passion för djurassisterad terapi och seriösa engagemang för välmående har påverkat många under dessa år.
+                Marie är utbildad resurspedagog/skolhundspedagog och har tillsammans med Ringo arbetat inom skol, vård och omsorg sedan 2019 då de tillsammans utbildade sig till besöks- terapi- och skolhundsteam. Hennes passion för djurassisterad terapi och seriösa engagemang för välmående har påverkat många under dessa år.
+
               </p>
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                Nu med även Elvis och Sunny vid sin sida, skapar Marie trygga, sköna rum där människor kan uppleva den helande kraften i människa-djur relationer. Varje hund är noggrant utvald, utförligt tränad och temperamentstestad för att säkerställa bästa kvalitet.
+                Nu med även Sunny, certifierad besökshund vid sin sida, samt Elvis som under hösten kommer påbörja sin utbildning, skapar Marie trygga, sköna rum där människor kan uppleva den helande kraften i människa-djur relationer. Varje hund är noggrant utvald, utförligt tränad och temperamentstestad för att säkerställa bästa kvalitet.
+
               </p>
               <div className="flex gap-8">
                 <div>
@@ -55,7 +59,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-accent mb-2">✓</div>
-                  <div className="text-sm font-medium text-foreground/70">Certifierad hanterare</div>
+                  <div className="text-sm font-medium text-foreground/70">Hundens Hus, Svenska Terapihundskolan, Vårdhundskolan</div>
                 </div>
               </div>
             </div>
@@ -78,7 +82,7 @@ export default function Home() {
               Möt hundarna
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Varje hund bidrar med unika gåvor och personligheter i sitt arbete. Upptäck vad som gör Elvis, Sunny och Ringo speciella.
+              Varje hund bidrar med unika gåvor och personligheter i sitt arbete. Upptäck vad som gör Ringo, Sunny och Elvis speciella.
             </p>
           </div>
 
@@ -96,6 +100,7 @@ export default function Home() {
               } else if (dog.id === "ringo") {
                 bgColor = "#F5E6D3";
                 borderColor = "#8B6F47";
+                
               }
               
               return (
@@ -118,7 +123,7 @@ export default function Home() {
 
             <div className="rounded-3xl overflow-hidden shadow-soft-lg mb-12">
               <img
-                src="/work.png"
+                src="/work.jpg"
                 alt="Therapy dogs in schools and care homes"
                 className="w-full h-auto"
               />
@@ -192,7 +197,7 @@ export default function Home() {
                       Podcast
                     </p>
                     <h3 className="text-2xl font-bold text-foreground">
-                      Lyssna på vårt samtal
+                      Lyssna på ett samtal om skolhundar
                     </h3>
                   </div>
                 </div>

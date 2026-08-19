@@ -25,7 +25,7 @@ const navLinks = [
             />
           </div>
           <span className="font-bold text-xl text-foreground hidden sm:inline">
-            Besökshund
+          Min Hund Du och Jag
           </span>
         </div>
 
