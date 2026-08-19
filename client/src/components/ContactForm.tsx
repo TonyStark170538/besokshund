@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
+// Paste your Formspree endpoint here:
+// https://formspree.io/f/xxxxxxxx
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xvkpdayn";
+
 export function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -19,6 +23,7 @@ export function ContactForm() {
     >
   ) => {
     const { name, value } = e.target;
+
     setFormData((prev) => ({
       ...prev,
       [name]: value,
@@ -27,11 +32,32 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (FORMSPREE_ENDPOINT === "PASTE_YOUR_FORMSPREE_LINK_HERE") {
+      toast.error("Formuläret är inte korrekt konfigurerat ännu.");
+      return;
+    }
+
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      toast.success("Tack för din förfrågan! Marie kontaktar dig snart.");
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      toast.success(
+        "Tack för din förfrågan! Marie kontaktar dig snart."
+      );
+
       setFormData({
         name: "",
         email: "",
@@ -39,17 +65,28 @@ export function ContactForm() {
         inquiryType: "general",
         message: "",
       });
+    } catch (error) {
+      console.error("Formspree submission error:", error);
+
+      toast.error(
+        "Något gick fel när formuläret skickades. Försök igen."
+      );
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       {/* Name */}
       <div>
-        <label htmlFor="name" className="block text-sm font-semibold mb-2">
+        <label
+          htmlFor="name"
+          className="block text-sm font-semibold mb-2"
+        >
           Ditt Namn *
         </label>
+
         <input
           type="text"
           id="name"
@@ -57,6 +94,7 @@ export function ContactForm() {
           value={formData.name}
           onChange={handleChange}
           required
+          autoComplete="name"
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
           placeholder="Ange ditt namn"
         />
@@ -64,9 +102,13 @@ export function ContactForm() {
 
       {/* Email */}
       <div>
-        <label htmlFor="email" className="block text-sm font-semibold mb-2">
+        <label
+          htmlFor="email"
+          className="block text-sm font-semibold mb-2"
+        >
           E-postadress *
         </label>
+
         <input
           type="email"
           id="email"
@@ -74,6 +116,7 @@ export function ContactForm() {
           value={formData.email}
           onChange={handleChange}
           required
+          autoComplete="email"
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
           placeholder="your@email.com"
         />
@@ -81,15 +124,20 @@ export function ContactForm() {
 
       {/* Phone */}
       <div>
-        <label htmlFor="phone" className="block text-sm font-semibold mb-2">
+        <label
+          htmlFor="phone"
+          className="block text-sm font-semibold mb-2"
+        >
           Telefonnummer
         </label>
+
         <input
           type="tel"
           id="phone"
           name="phone"
           value={formData.phone}
           onChange={handleChange}
+          autoComplete="tel"
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
           placeholder="+46 (0)XX XXX XXXX"
         />
@@ -97,30 +145,41 @@ export function ContactForm() {
 
       {/* Inquiry Type */}
       <div>
-        <label htmlFor="inquiryType" className="block text-sm font-semibold mb-2">
+        <label
+          htmlFor="inquiryType"
+          className="block text-sm font-semibold mb-2"
+        >
           Typ av förfrågan *
         </label>
+
         <select
           id="inquiryType"
           name="inquiryType"
           value={formData.inquiryType}
           onChange={handleChange}
+          required
           className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent transition-all"
         >
-          <option value="general">Allmän frågan</option>
+          <option value="general">Allmän fråga</option>
           <option value="children">Barn</option>
           <option value="seniors">Läsning</option>
           <option value="reading">Äldre</option>
-          <option value="institutional">Problematisk skolfrånvaro</option>
+          <option value="institutional">
+            Problematisk skolfrånvaro
+          </option>
           <option value="other">Övrigt</option>
         </select>
       </div>
 
       {/* Message */}
       <div>
-        <label htmlFor="message" className="block text-sm font-semibold mb-2">
+        <label
+          htmlFor="message"
+          className="block text-sm font-semibold mb-2"
+        >
           Meddelande *
         </label>
+
         <textarea
           id="message"
           name="message"

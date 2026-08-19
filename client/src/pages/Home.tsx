@@ -82,7 +82,7 @@ export default function Home() {
               Möt hundarna
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-              Varje hund bidrar med unika gåvor och personligheter i sitt arbete. Upptäck vad som gör Ringo, Sunny och Elvis speciella.
+              Varje hund bidrar med unika gåvor och personligheter i sitt arbete. Upptäck vad som gör Elvis, Sunny och Ringo speciella.
             </p>
           </div>
 
