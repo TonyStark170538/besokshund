@@ -14,28 +14,6 @@ export default function Home() {
     <div className="min-h-screen bg-background relative">
       <Navigation />
 
-      {/* Hero Section with Video */}
-      <section id="home" className="pt-24 pb-0 relative overflow-hidden">
-        <div className="container relative z-10 py-20 md:py-32">
-          <div className="max-w-4xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-lg bg-card">
-              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-                <iframe
-                  title="Besökshund video"
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube-nocookie.com/embed/__hTKEuED2M?rel=0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </section>
-
       {/* About Marie Section */}
       <section className="section-padding bg-card">
         <div className="container">
@@ -69,6 +47,20 @@ export default function Home() {
                 alt="Marie with therapy dogs"
                 className="rounded-3xl shadow-soft-lg"
               />
+            </div>
+          </div>
+          <div className="max-w-4xl mx-auto mt-16 md:mt-20">
+            <div className="rounded-3xl overflow-hidden shadow-soft-lg bg-card">
+              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  title="Besökshund video"
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube-nocookie.com/embed/__hTKEuED2M?rel=0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
         </div>
